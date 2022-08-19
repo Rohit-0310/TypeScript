@@ -58,5 +58,7 @@ var course = {
     name: 'Components and Directives',
     lessonCount: 20
 };
-named = course;
-course = named;
+// named = course;
+// course = named;
+console.log("course", course);
+console.log('named', named);

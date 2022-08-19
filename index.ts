@@ -131,3 +131,46 @@ console.log(x)
 
 
 
+//Key Concept  - Type compatibility depends on the list of properties of a type
+
+// interface Course {
+//     name: string;
+//     lessonCount: number;
+// }
+// interface Named {
+//     name: string;
+// }
+// let named: Named = {
+//     name: 'Name goes here'
+// };
+// let course: Course = {
+//     name: 'Components and Directives',
+//     lessonCount: 20
+// };
+// named = course;
+// course = named;
+
+
+
+
+interface Course {
+    name: string;
+    lessonCount?: number;
+}
+interface Named {
+    name: string;
+}
+let named: Named = {
+    name: 'Name goes here'
+};
+let course: Course = {
+    name: 'Components and Directives',
+    lessonCount: 20
+};
+// named = course;
+// course = named;
+
+
+console.log("course", course);
+console.log('named', named);
+
