@@ -1,5 +1,22 @@
 {
   "dependencies": {
     "lodash": "^4.17.21"
-  }
+  },
+  "name": "typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rohit-0310/TypeScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rohit-0310/TypeScript/issues"
+  },
+  "homepage": "https://github.com/Rohit-0310/TypeScript#readme",
+  "description": ""
 }

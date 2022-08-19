@@ -167,10 +167,18 @@ let course: Course = {
     name: 'Components and Directives',
     lessonCount: 20
 };
-// named = course;
-// course = named;
+named = course;
+course = named;
 
 
 console.log("course", course);
 console.log('named', named);
 
+
+//Any Type
+let data: any = "abccd";
+
+data = 54
+
+
+console.log("data", data)
