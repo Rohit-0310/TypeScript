@@ -131,21 +131,3 @@ console.log(x)
 
 
 
-
-
-interface Course {
-    name: string;
-    lessonCount: number;
-}
-interface Named {
-    name: string;
-}
-let named: Named = {
-    name: 'Name goes here'
-};
-let course: Course = {
-    name: 'Components and Directives',
-    lessonCount: 20
-};
-named = course;
-course = named;
