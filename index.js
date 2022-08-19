@@ -23,4 +23,40 @@ num = 50;
 console.log(num);
 var city;
 city = ['delhi', 'mumbai', 'kolkata'];
-console.log(city);
+console.log("City :-", city);
+var person1 = {
+    fName: "Prakash",
+    lName: "Steve"
+};
+var person2 = {
+    fName: "Shubham",
+    lName: "Kumar",
+    age: 24,
+    gender: "male"
+};
+console.log("person1", person1);
+console.log("person2", person2);
+//Function
+var math = function (x, y) {
+    return Math.pow(y, x);
+};
+console.log(math(2, 5));
+var arr = [];
+arr.push(5);
+arr.push("56");
+arr.push(false);
+arr.push("Mohan");
+arr.push(true);
+console.log(arr);
+var x;
+x = Math.random();
+console.log(x);
+var named = {
+    name: 'Name goes here'
+};
+var course = {
+    name: 'Components and Directives',
+    lessonCount: 20
+};
+named = course;
+course = named;

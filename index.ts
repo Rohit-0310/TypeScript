@@ -63,4 +63,89 @@ let city: object;
 
 
 city = ['delhi', 'mumbai', 'kolkata'];
-console.log(city)
+console.log("City :-", city)
+
+
+
+
+interface Person1 {
+    fName: string;
+    lName: string;
+    [key: string]: any;
+}
+
+
+const person1: Person1 = {
+    fName: "Prakash",
+    lName: "Steve"
+}
+
+const person2: Person1 = {
+    fName: "Shubham",
+    lName: "Kumar",
+    age: 24,
+    gender: "male"
+}
+
+
+console.log("person1", person1)
+console.log("person2", person2)
+
+//Function
+
+const math = (x: number, y: number) => {
+    return Math.pow(y, x)
+}
+
+
+console.log(math(2, 5));
+
+
+// Array
+
+
+type MyArr = [number?, string?, boolean?]
+
+
+const arr: MyArr = [];
+
+
+arr.push(5)
+arr.push("56")
+arr.push(false)
+arr.push("Mohan")
+arr.push(true)
+
+
+console.log(arr)
+
+
+
+
+
+
+let x: number;
+x = Math.random();
+
+console.log(x)
+
+
+
+
+
+interface Course {
+    name: string;
+    lessonCount: number;
+}
+interface Named {
+    name: string;
+}
+let named: Named = {
+    name: 'Name goes here'
+};
+let course: Course = {
+    name: 'Components and Directives',
+    lessonCount: 20
+};
+named = course;
+course = named;
