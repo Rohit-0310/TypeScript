@@ -177,10 +177,16 @@ console.log('named', named);
 
 
 //Any Type
-let data: any = "abccd";
+let data: string = "abccd";
 
-data = 54
+data = "Name"
 
 
 console.log("data", data)
 
+//Type declaration new way
+let username = {} as { name: string };
+username.name = 'John'
+
+
+console.log("username", username)

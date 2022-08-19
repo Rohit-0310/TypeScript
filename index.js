@@ -64,5 +64,9 @@ console.log("course", course);
 console.log('named', named);
 //Any Type
 var data = "abccd";
-data = 54;
+data = "Name";
 console.log("data", data);
+//Type declaration new way
+var username = {};
+username.name = 'John';
+console.log("username", username);
