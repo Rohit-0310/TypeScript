@@ -18,3 +18,9 @@ function greeter1(person) {
 }
 var user1 = new Student("Rohit", "Kumar");
 console.log(greeter1(user1));
+var num = 25;
+num = 50;
+console.log(num);
+var city;
+city = ['delhi', 'mumbai', 'kolkata'];
+console.log(city);

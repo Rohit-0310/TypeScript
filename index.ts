@@ -54,3 +54,13 @@ console.log(greeter1(user1));
 
 
 
+let num: number = 25;
+num = 50;
+console.log(num);
+
+
+let city: object;
+
+
+city = ['delhi', 'mumbai', 'kolkata'];
+console.log(city)
