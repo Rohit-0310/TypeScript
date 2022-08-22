@@ -58,10 +58,15 @@ var course = {
     name: 'Components and Directives',
     lessonCount: 20
 };
+//Before
+console.log("Before_course", course);
+console.log('Before_named', named);
+console.log("----------------Break----------------");
 named = course;
 course = named;
-console.log("course", course);
-console.log('named', named);
+//After
+console.log("After_course", course);
+console.log('After_named', named);
 //Any Type
 var data = "abccd";
 data = "Name";
