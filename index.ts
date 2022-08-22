@@ -188,5 +188,13 @@ console.log("data", data)
 let username = {} as { name: string };
 username.name = 'John'
 
-
 console.log("username", username)
+
+
+
+
+let uname: any = {}
+uname.name = 'John'
+
+
+console.log("uname", uname)

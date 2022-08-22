@@ -70,3 +70,6 @@ console.log("data", data);
 var username = {};
 username.name = 'John';
 console.log("username", username);
+var uname = {};
+uname.name = 'John';
+console.log("uname", uname);
