@@ -15,7 +15,7 @@ const getUsers = async () => {
     try {
         // 👇️ const data: GetUsersResponse
         const { data, status } = await axios.get<GetUsersResponse>(
-            'https://reqres.in/api/users',
+            'https://reqres.in/api/users?page=2',
             {
                 headers: {
                     Accept: 'application/json',

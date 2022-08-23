@@ -3,6 +3,7 @@ let word = 'Hello World!';
 
 console.log(word);
 
+document.write(word)
 
 // function greeter(person) {
 //     return "Hello, " + person;
