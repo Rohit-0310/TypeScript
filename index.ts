@@ -14,6 +14,8 @@ document.write(word)
 // console.log(greeter(user));
 
 
+
+
 interface Person {
     firstName: string;
     lastName: string;
